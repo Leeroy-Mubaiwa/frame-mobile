@@ -579,7 +579,7 @@ class _HomePageTemplateWidgetState extends State<HomePageTemplateWidget>
                                               border: Border.all(
                                                 color:
                                                     FlutterFlowTheme.of(context)
-                                                        .lineColor,
+                                                        .accent1,
                                                 width: 1.0,
                                               ),
                                             ),
@@ -673,7 +673,7 @@ class _HomePageTemplateWidgetState extends State<HomePageTemplateWidget>
                                                                             .alternate,
                                                                     backgroundColor:
                                                                         FlutterFlowTheme.of(context)
-                                                                            .lineColor,
+                                                                            .accent1,
                                                                     center:
                                                                         Text(
                                                                       '23%',
@@ -737,7 +737,7 @@ class _HomePageTemplateWidgetState extends State<HomePageTemplateWidget>
                                                                             .tertiary,
                                                                     backgroundColor:
                                                                         FlutterFlowTheme.of(context)
-                                                                            .lineColor,
+                                                                            .accent1,
                                                                     center:
                                                                         Text(
                                                                       '93%',
@@ -929,7 +929,7 @@ class _HomePageTemplateWidgetState extends State<HomePageTemplateWidget>
                                                       color:
                                                           FlutterFlowTheme.of(
                                                                   context)
-                                                              .lineColor,
+                                                              .accent1,
                                                       width: 1.0,
                                                     ),
                                                   ),
@@ -1193,7 +1193,7 @@ class _HomePageTemplateWidgetState extends State<HomePageTemplateWidget>
                                               border: Border.all(
                                                 color:
                                                     FlutterFlowTheme.of(context)
-                                                        .lineColor,
+                                                        .accent1,
                                                 width: 1.0,
                                               ),
                                             ),
@@ -1315,7 +1315,7 @@ class _HomePageTemplateWidgetState extends State<HomePageTemplateWidget>
                                             BorderRadius.circular(16.0),
                                         border: Border.all(
                                           color: FlutterFlowTheme.of(context)
-                                              .lineColor,
+                                              .accent1,
                                           width: 1.0,
                                         ),
                                       ),
@@ -1476,7 +1476,7 @@ class _HomePageTemplateWidgetState extends State<HomePageTemplateWidget>
                                                             blurRadius: 0.0,
                                                             color: FlutterFlowTheme
                                                                     .of(context)
-                                                                .lineColor,
+                                                                .accent1,
                                                             offset: const Offset(
                                                               0.0,
                                                               1.0,
@@ -1710,7 +1710,7 @@ class _HomePageTemplateWidgetState extends State<HomePageTemplateWidget>
                                                             blurRadius: 0.0,
                                                             color: FlutterFlowTheme
                                                                     .of(context)
-                                                                .lineColor,
+                                                                .accent1,
                                                             offset: const Offset(
                                                               0.0,
                                                               1.0,
@@ -1944,7 +1944,7 @@ class _HomePageTemplateWidgetState extends State<HomePageTemplateWidget>
                                                             blurRadius: 0.0,
                                                             color: FlutterFlowTheme
                                                                     .of(context)
-                                                                .lineColor,
+                                                                .accent1,
                                                             offset: const Offset(
                                                               0.0,
                                                               1.0,
@@ -2178,7 +2178,7 @@ class _HomePageTemplateWidgetState extends State<HomePageTemplateWidget>
                                                             blurRadius: 0.0,
                                                             color: FlutterFlowTheme
                                                                     .of(context)
-                                                                .lineColor,
+                                                                .accent1,
                                                             offset: const Offset(
                                                               0.0,
                                                               1.0,
@@ -2412,7 +2412,7 @@ class _HomePageTemplateWidgetState extends State<HomePageTemplateWidget>
                                                             blurRadius: 0.0,
                                                             color: FlutterFlowTheme
                                                                     .of(context)
-                                                                .lineColor,
+                                                                .accent1,
                                                             offset: const Offset(
                                                               0.0,
                                                               1.0,
