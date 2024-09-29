@@ -3,13 +3,9 @@ import '/flutter_flow/flutter_flow_animations.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
-import 'dart:math';
 import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'package:flutter/scheduler.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:provider/provider.dart';
 import 'login_page_model.dart';
 export 'login_page_model.dart';
 
@@ -60,8 +56,8 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
             curve: Curves.easeInOut,
             delay: 0.0.ms,
             duration: 0.0.ms,
-            begin: Offset(0.0, 20.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 20.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -80,8 +76,8 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
             curve: Curves.easeInOut,
             delay: 0.0.ms,
             duration: 0.0.ms,
-            begin: Offset(0.0, 60.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 60.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -100,8 +96,8 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
             curve: Curves.easeInOut,
             delay: 0.0.ms,
             duration: 0.0.ms,
-            begin: Offset(0.0, 30.0),
-            end: Offset(0.0, 0.0),
+            begin: const Offset(0.0, 30.0),
+            end: const Offset(0.0, 0.0),
           ),
         ],
       ),
@@ -128,14 +124,14 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).secondaryBackground,
-        body: Container(
+        body: SizedBox(
           width: double.infinity,
           height: double.infinity,
           child: Stack(
-            alignment: AlignmentDirectional(0.0, 1.0),
+            alignment: const AlignmentDirectional(0.0, 1.0),
             children: [
               Align(
-                alignment: AlignmentDirectional(1.0, -1.4),
+                alignment: const AlignmentDirectional(1.0, -1.4),
                 child: Container(
                   width: 500.0,
                   height: 500.0,
@@ -151,7 +147,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                 desktop: false,
               ))
                 Align(
-                  alignment: AlignmentDirectional(-2.0, -1.5),
+                  alignment: const AlignmentDirectional(-2.0, -1.5),
                   child: Container(
                     width: 350.0,
                     height: 350.0,
@@ -167,7 +163,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                 tablet: false,
               ))
                 Align(
-                  alignment: AlignmentDirectional(-1.25, -1.5),
+                  alignment: const AlignmentDirectional(-1.25, -1.5),
                   child: Container(
                     width: 600.0,
                     height: 600.0,
@@ -183,7 +179,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                 desktop: false,
               ))
                 Align(
-                  alignment: AlignmentDirectional(2.5, -1.2),
+                  alignment: const AlignmentDirectional(2.5, -1.2),
                   child: Container(
                     width: 300.0,
                     height: 300.0,
@@ -199,7 +195,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                 tablet: false,
               ))
                 Align(
-                  alignment: AlignmentDirectional(1.0, -0.95),
+                  alignment: const AlignmentDirectional(1.0, -0.95),
                   child: Container(
                     width: 700.0,
                     height: 700.0,
@@ -210,7 +206,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                   ),
                 ),
               Align(
-                alignment: AlignmentDirectional(0.0, 1.0),
+                alignment: const AlignmentDirectional(0.0, 1.0),
                 child: ClipRRect(
                   child: BackdropFilter(
                     filter: ImageFilter.blur(
@@ -218,20 +214,20 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                       sigmaY: 40.0,
                     ),
                     child: Align(
-                      alignment: AlignmentDirectional(0.0, 1.0),
+                      alignment: const AlignmentDirectional(0.0, 1.0),
                       child: Container(
                         width: double.infinity,
                         height: double.infinity,
-                        decoration: BoxDecoration(),
-                        alignment: AlignmentDirectional(0.0, 1.0),
+                        decoration: const BoxDecoration(),
+                        alignment: const AlignmentDirectional(0.0, 1.0),
                         child: Align(
-                          alignment: AlignmentDirectional(0.0, 1.0),
+                          alignment: const AlignmentDirectional(0.0, 1.0),
                           child: Column(
                             mainAxisSize: MainAxisSize.max,
                             mainAxisAlignment: MainAxisAlignment.end,
                             children: [
                               Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
+                                padding: const EdgeInsetsDirectional.fromSTEB(
                                     0.0, 64.0, 0.0, 24.0),
                                 child: Row(
                                   mainAxisSize: MainAxisSize.max,
@@ -265,11 +261,11 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                               ),
                               Expanded(
                                 child: Align(
-                                  alignment: AlignmentDirectional(0.0, 1.0),
+                                  alignment: const AlignmentDirectional(0.0, 1.0),
                                   child: Container(
                                     width: double.infinity,
                                     height: 500.0,
-                                    constraints: BoxConstraints(
+                                    constraints: const BoxConstraints(
                                       maxWidth: 570.0,
                                     ),
                                     decoration: BoxDecoration(
@@ -284,7 +280,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                                           child: Column(
                                             children: [
                                               Align(
-                                                alignment: Alignment(0.0, 0),
+                                                alignment: const Alignment(0.0, 0),
                                                 child: TabBar(
                                                   isScrollable: true,
                                                   labelColor:
@@ -296,7 +292,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                                                               context)
                                                           .secondaryText,
                                                   labelPadding:
-                                                      EdgeInsetsDirectional
+                                                      const EdgeInsetsDirectional
                                                           .fromSTEB(24.0, 0.0,
                                                               24.0, 0.0),
                                                   labelStyle:
@@ -309,13 +305,13 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                                                             letterSpacing: 0.0,
                                                           ),
                                                   unselectedLabelStyle:
-                                                      TextStyle(),
+                                                      const TextStyle(),
                                                   indicatorColor:
                                                       FlutterFlowTheme.of(
                                                               context)
                                                           .secondary,
                                                   indicatorWeight: 2.0,
-                                                  tabs: [
+                                                  tabs: const [
                                                     Tab(
                                                       text: 'Pindah Frame',
                                                     ),
@@ -339,7 +335,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                                                         children: [
                                                           Padding(
                                                             padding:
-                                                                EdgeInsetsDirectional
+                                                                const EdgeInsetsDirectional
                                                                     .fromSTEB(
                                                                         24.0,
                                                                         20.0,
@@ -394,7 +390,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                                                                 focusedBorder:
                                                                     OutlineInputBorder(
                                                                   borderSide:
-                                                                      BorderSide(
+                                                                      const BorderSide(
                                                                     color: Color(
                                                                         0x00000000),
                                                                     width: 1.0,
@@ -437,7 +433,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                                                                         context)
                                                                     .primaryBackground,
                                                                 contentPadding:
-                                                                    EdgeInsetsDirectional
+                                                                    const EdgeInsetsDirectional
                                                                         .fromSTEB(
                                                                             20.0,
                                                                             24.0,
@@ -461,7 +457,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                                                           ),
                                                           Padding(
                                                             padding:
-                                                                EdgeInsetsDirectional
+                                                                const EdgeInsetsDirectional
                                                                     .fromSTEB(
                                                                         24.0,
                                                                         12.0,
@@ -516,7 +512,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                                                                 focusedBorder:
                                                                     OutlineInputBorder(
                                                                   borderSide:
-                                                                      BorderSide(
+                                                                      const BorderSide(
                                                                     color: Color(
                                                                         0x00000000),
                                                                     width: 1.0,
@@ -559,7 +555,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                                                                         context)
                                                                     .primaryBackground,
                                                                 contentPadding:
-                                                                    EdgeInsetsDirectional
+                                                                    const EdgeInsetsDirectional
                                                                         .fromSTEB(
                                                                             20.0,
                                                                             24.0,
@@ -607,7 +603,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                                                           ),
                                                           Padding(
                                                             padding:
-                                                                EdgeInsetsDirectional
+                                                                const EdgeInsetsDirectional
                                                                     .fromSTEB(
                                                                         24.0,
                                                                         16.0,
@@ -647,14 +643,14 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                                                                         140.0,
                                                                     height:
                                                                         40.0,
-                                                                    padding: EdgeInsetsDirectional
+                                                                    padding: const EdgeInsetsDirectional
                                                                         .fromSTEB(
                                                                             0.0,
                                                                             0.0,
                                                                             0.0,
                                                                             0.0),
                                                                     iconPadding:
-                                                                        EdgeInsetsDirectional.fromSTEB(
+                                                                        const EdgeInsetsDirectional.fromSTEB(
                                                                             0.0,
                                                                             0.0,
                                                                             0.0,
@@ -676,7 +672,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                                                                     elevation:
                                                                         0.0,
                                                                     borderSide:
-                                                                        BorderSide(
+                                                                        const BorderSide(
                                                                       color: Colors
                                                                           .transparent,
                                                                       width:
@@ -697,7 +693,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                                                                         .signIn();
 
                                                                     context.goNamedAuth(
-                                                                        'HomePage',
+                                                                        'home_PageTemplate',
                                                                         context
                                                                             .mounted);
                                                                   },
@@ -709,14 +705,14 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                                                                         130.0,
                                                                     height:
                                                                         50.0,
-                                                                    padding: EdgeInsetsDirectional
+                                                                    padding: const EdgeInsetsDirectional
                                                                         .fromSTEB(
                                                                             0.0,
                                                                             0.0,
                                                                             0.0,
                                                                             0.0),
                                                                     iconPadding:
-                                                                        EdgeInsetsDirectional.fromSTEB(
+                                                                        const EdgeInsetsDirectional.fromSTEB(
                                                                             0.0,
                                                                             0.0,
                                                                             0.0,
@@ -738,7 +734,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                                                                     elevation:
                                                                         3.0,
                                                                     borderSide:
-                                                                        BorderSide(
+                                                                        const BorderSide(
                                                                       color: Colors
                                                                           .transparent,
                                                                       width:
@@ -776,7 +772,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget>
                                 Container(
                                   width: 200.0,
                                   height: 200.0,
-                                  decoration: BoxDecoration(),
+                                  decoration: const BoxDecoration(),
                                 ),
                             ],
                           ),
