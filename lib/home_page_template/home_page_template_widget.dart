@@ -840,7 +840,7 @@ class _HomePageTemplateWidgetState extends State<HomePageTemplateWidget>
                                                                       'Inter Tight',
                                                                   color: FlutterFlowTheme.of(
                                                                           context)
-                                                                      .primaryBtnText,
+                                                                      .alternate,
                                                                   letterSpacing:
                                                                       0.0,
                                                                 ),
@@ -863,7 +863,7 @@ class _HomePageTemplateWidgetState extends State<HomePageTemplateWidget>
                                                                         'Inter',
                                                                     color: FlutterFlowTheme.of(
                                                                             context)
-                                                                        .white70,
+                                                                        .secondaryBackground,
                                                                     letterSpacing:
                                                                         0.0,
                                                                   ),
@@ -897,11 +897,11 @@ class _HomePageTemplateWidgetState extends State<HomePageTemplateWidget>
                                                                   progressColor:
                                                                       FlutterFlowTheme.of(
                                                                               context)
-                                                                          .primaryBtnText,
+                                                                          .tertiary,
                                                                   backgroundColor:
                                                                       FlutterFlowTheme.of(
                                                                               context)
-                                                                          .white70,
+                                                                          .primary,
                                                                   barRadius: const Radius
                                                                       .circular(
                                                                           50.0),
