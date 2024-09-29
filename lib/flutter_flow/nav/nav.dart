@@ -89,6 +89,16 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'loginPage',
           path: '/loginPage',
           builder: (context, params) => const LoginPageWidget(),
+        ),
+        FFRoute(
+          name: 'HomePage3',
+          path: '/homePage3',
+          builder: (context, params) => const HomePage3Widget(),
+        ),
+        FFRoute(
+          name: 'home_PageTemplate',
+          path: '/homePageTemplate',
+          builder: (context, params) => const HomePageTemplateWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
