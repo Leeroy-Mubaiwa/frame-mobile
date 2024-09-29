@@ -1,4 +1,3 @@
-import '/auth/firebase_auth/auth_util.dart';
 import '/flutter_flow/flutter_flow_animations.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
@@ -371,15 +370,8 @@ class _HomePageTemplateWidgetState extends State<HomePageTemplateWidget>
                                   children: [
                                     ClipRRect(
                                       borderRadius: BorderRadius.circular(40.0),
-                                      child: CachedNetworkImage(
-                                        fadeInDuration:
-                                            const Duration(milliseconds: 500),
-                                        fadeOutDuration:
-                                            const Duration(milliseconds: 500),
-                                        imageUrl: valueOrDefault<String>(
-                                          currentUserPhoto,
-                                          'https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/onboarding-01-bv872t/assets/fnp38dj9xs3p/app_icon@1x.png',
-                                        ),
+                                      child: Image.asset(
+                                        'assets/images/School_Management_Software_Small.png',
                                         width: 40.0,
                                         height: 40.0,
                                         fit: BoxFit.cover,
@@ -397,10 +389,7 @@ class _HomePageTemplateWidgetState extends State<HomePageTemplateWidget>
                                               CrossAxisAlignment.start,
                                           children: [
                                             Text(
-                                              valueOrDefault<String>(
-                                                currentUserDisplayName,
-                                                'NoCodeUI',
-                                              ),
+                                              'Albert Swiss',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .titleMedium
@@ -414,10 +403,7 @@ class _HomePageTemplateWidgetState extends State<HomePageTemplateWidget>
                                               padding: const EdgeInsetsDirectional
                                                   .fromSTEB(0.0, 4.0, 0.0, 0.0),
                                               child: Text(
-                                                valueOrDefault<String>(
-                                                  currentUserEmail,
-                                                  'nocodeui.io',
-                                                ),
+                                                'albert@companyname.com',
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodySmall
